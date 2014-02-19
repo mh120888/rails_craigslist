@@ -1,0 +1,6 @@
+<h1><%= @post.title %> - <%= @post.location %></h1>
+
+<p><%= @post.body %><p>
+
+<%= link_to 'Edit Post', edit_category_post_path(@post) %><br>
+<%= link_to 'Delete Post', category_post_path(@category, @post), :method => :delete %>
