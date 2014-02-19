@@ -1,3 +1,5 @@
+<h1>Craigslist Jr.</h1>
+
 <ul>
 <% @categories.each do |cat| %>
   <li><%= link_to cat.title, category_path(cat) %></li>
