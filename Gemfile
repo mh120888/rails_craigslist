@@ -22,6 +22,7 @@ group :assets do
 end
 
 gem 'rspec-rails'
+gem 'shoulda-matchers'
 
 gem 'jquery-rails'
 
