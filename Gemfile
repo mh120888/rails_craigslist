@@ -23,6 +23,9 @@ end
 
 gem 'rspec-rails'
 gem 'shoulda-matchers'
+gem 'capybara'
+gem 'selenium-webdriver'
+gem 'database_cleaner'
 
 gem 'jquery-rails'
 
